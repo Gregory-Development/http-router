@@ -1,0 +1,6 @@
+---
+ipv4_http_bind_address: "0.0.0.0"
+ipv4_http_bind_port: 8080
+http_read_timeout: 15
+http_write_timeout: 15
+http_idle_timeout: 60

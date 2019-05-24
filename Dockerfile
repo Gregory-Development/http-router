@@ -1,0 +1,5 @@
+FROM docker.io/golang@sha256:cf0b9f69ad1edd652a7f74a1586080b15bf6f688c545044407e28805066ef2cb AS MOD
+
+FROM docker.io/golang@sha256:cf0b9f69ad1edd652a7f74a1586080b15bf6f688c545044407e28805066ef2cb AS BUILDER
+
+FROM scratch
